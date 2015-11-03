@@ -42,7 +42,7 @@ $ icons resources
 
 #### Run the local server
 {% highlight bash %}
-$ ionic server
+$ ionic serve
 {% endhighlight %}
 
 #### Build and run on android.

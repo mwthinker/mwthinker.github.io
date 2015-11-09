@@ -37,7 +37,7 @@ $ ionic lib update
 The folder "Resources" must exist and contain at least icon.png and splash.png.
 {% highlight bash %}
 # icon.png and splash.png is then used by the command.
-$ icons resources
+$ ionic resources
 {% endhighlight %}
 
 #### Run the local server

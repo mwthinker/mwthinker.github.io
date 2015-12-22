@@ -40,6 +40,17 @@ The folder "Resources" must exist and contain at least icon.png and splash.png.
 $ ionic resources
 {% endhighlight %}
 
+#### Reinstate all plugins and platforms
+All plugins and platforms are saved in package.json file. In order to save the current plugins and platforms, do the following.
+{% highlight bash %}
+$ ionic state save
+{% endhighlight %}
+The current state of your project is saved.
+To reenable to the last state saved, call the following (your current state will be removed).
+{% highlight bash %}
+$ ionic state reset
+{% endhighlight %}
+
 #### Run the local server
 {% highlight bash %}
 $ ionic serve

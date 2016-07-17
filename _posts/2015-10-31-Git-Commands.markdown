@@ -49,7 +49,7 @@ $ git rm MwLibrary2
 Note: MwLibrary2 (no trailing slash)
 or, if you want to leave it in your working tree.
 {% highlight bash %}
-git rm --cached MwLibrary2
+$ git rm --cached MwLibrary2
 {% endhighlight %}
 
 #### Tags
